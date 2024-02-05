@@ -6,4 +6,5 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
+  @apply overflow-x-hidden bg-neutral-300;
 }
