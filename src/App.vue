@@ -10,8 +10,8 @@ onMounted(async () => (skins.value = await fetchSkins()));
 </script>
 
 <template>
-  <div class="mx-auto max-w-[1400px] pt-20">
-    <div v-auto-animate class="flex w-full flex-wrap justify-center gap-5">
+  <div class="mx-auto max-w-[1400px] py-20">
+    <div v-auto-animate class="flex w-full flex-wrap justify-center gap-7">
       <SkinCard
         v-if="skins"
         v-for="skin in skins"
