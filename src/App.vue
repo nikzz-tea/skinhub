@@ -28,7 +28,7 @@ provide("searchQuery", searchQuery);
 </script>
 
 <template>
-  <div class="mx-auto max-w-[1400px] py-14">
+  <main class="mx-auto max-w-[1400px] px-4 py-14">
     <div class="flex justify-center gap-5 pb-10">
       <SearchBar />
       <div @click="handleRefresh"><ShuffleButton /></div>
@@ -41,5 +41,5 @@ provide("searchQuery", searchQuery);
         v-bind="skin"
       />
     </div>
-  </div>
+  </main>
 </template>

@@ -12,7 +12,7 @@ const handleChange = (e: Event) => {
   <div class="relative duration-200 focus-within:-translate-y-1">
     <input
       @input="handleChange"
-      class="rounded-md bg-neutral-100 py-1 pl-8 pr-2 text-lg text-neutral-700 shadow-md"
+      class="w-full rounded-md bg-neutral-100 py-1 pl-8 pr-2 text-lg text-neutral-700 shadow-md"
       type="text"
       placeholder="search"
     />
